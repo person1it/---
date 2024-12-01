@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>جمعية إتقاء - الرئيسية</title>
+</head>
+
+<body>
+
+  <main class="main-page">
+    <!-- HEADER -->
+    <header class="header">
+      <a href="/إتقاء/الرئيسية/home.html" class="logo"><img src="logo.png"></a>
+
+      <!-- NAVIGATION -->
+      <nav class="nav">
+        <button class="bank"><i class="fa-solid fa-landmark bank-button"></i></button>
+        <button class="store"><a href="#"><i class="fa-solid fa-cart-shopping "></i></a></button>
+        <button class="contact"><a href="/إتقاء/الرئيسية/home.html#contact">تواصل معنا</a></button>
+        <button class="main-menu main-menu-btn">القائمة الرئيسية<i class="fa-solid fa-bars-staggered"></i></button>
+      </nav>
+
+      <script>
+        const bankBt = document.querySelector(".bank-button");
+        const bankColor = document.querySelector(".bank-button");
+
+        bankBt.addEventListener("click", () => {
+          bankColor.classList.toggle("bank-color");
+        })
+      </script>
+
+      <script>
+        const mainMenuBtn = document.querySelector(".main-menu-btn");
+        const mainMenuColor = document.querySelector(".main-menu-btn");
+
+        mainMenuBtn.addEventListener("click", () => {
+          mainMenuColor.classList.toggle("show-color");
+        })
+      </script>
+
+      <nav class="alrajhibank">
+        <img src="alrajhibank-logo.png">
+        <p>SA000 0000 00</p>
+        <p>000 000 0000</p>
+      </nav>
+      </script>
+
+      <script>
+        const bank = document.querySelector(".bank-button");
+        const alrajhiBank = document.querySelector(".alrajhibank");
+
+        bank.addEventListener("click", () => {
+          alrajhiBank.classList.toggle("open");
+        })
+      </script>
+
+      <!--script>
+        function RunMe(){
+            var bank = document.querySelector(".bank");
+            
+            bank.add.
+        }
+      </script-->
+
+      <!-- NAVIGATION BAR -->
+      <nav class="navigation-bar">
+        <button class="about-us"><a href="/إتقاء/الرئيسية/home.html#about-us">عن إتقاء</a></button>
+        <button class="members"><a href="/إتقاء/الرئيسية/home.html#members">الأعضاء</a></button>
+        <button class="news"><a href="/إتقاء/الرئيسية/home.html#news">الأخبار</a></button>
+        <button class="events"><a href="/إتقاء/الرئيسية/home.html#events">الأحداث</a></button>
+        <button class="programs"><a href="/إتقاء/الرئيسية/home.html#programs">البرامج</a></button>
+        <button class="strategy"><a href="/إتقاء/الرئيسية/home.html#strategy">الأهداف الإستراتيجية</a></button>
+      </nav>
+
+      <script>
+        const mainMenu = document.querySelector(".main-menu");
+        const navigationBar = document.querySelector(".navigation-bar");
+
+        mainMenu.addEventListener("click", () => {
+          navigationBar.classList.toggle("active");
+        })
+      </script>
+
+      <!-- BAR -->
+      <nav class="bar">
+        <button class="bank-btn"><i class="fa-solid fa-landmark alrajhi-btn"></i></button>
+        <button class="store"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></button>
+        <button class="bar-btn"><i class="fa-solid fa-bars-staggered menu-btn"></i></button>
+      </nav>
+
+      <script>
+        const phonBtn = document.querySelector(".alrajhi-btn");
+        const phonButton = document.querySelector(".alrajhi-btn");
+
+        phonBtn.addEventListener("click", () => {
+          phonButton.classList.toggle("phone-btn");
+        })
+      </script>
+
+      <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const menuButton = document.querySelector(".menu-btn");
+
+        menuBtn.addEventListener("click", () => {
+          menuButton.classList.toggle("phone-button");
+        })
+      </script>
+
+      <!-- BAR LIST -->
+      <nav class="bar-list">
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#about-us">عن إتقاء</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#members">الأعضاء</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#news">الأخبار</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#events">الأحداث</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#programs">البرامج</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#strategy">الأهداف الإستراتيجية</a></button>
+        <button class="bar-list-btn"><a href="/إتقاء/الرئيسية/home.html#contact">تواصل معنا</a></button>
+      </nav>
+
+      <script>
+        const barBtn = document.querySelector(".menu-btn");
+        const barlist = document.querySelector(".bar-list");
+
+        barBtn.addEventListener("click", () => {
+          barlist.classList.toggle("toggle-menu");
+        })
+      </script>
+
+      <nav class="alrajhi">
+        <img src="alrajhibank-logo.png">
+        <p>SA000 0000 00</p>
+        <p>000 000 0000</p>
+      </nav>
+
+      <script>
+        const bankBtn = document.querySelector(".alrajhi-btn");
+        const alrajhi = document.querySelector(".alrajhi");
+
+        bankBtn.addEventListener("click", () => {
+          alrajhi.classList.toggle("show");
+        })
+      </script>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h3 class="slogan">جمعية إتِّقاء، لنحيا بإرتِقاء</h3>
+      <h3 class="hero-title">نشر الوعي للوقاية من الأمراض المنقولة بالنواقل<br>والمساهمة في إيجاد بيئة صحيّة جاذبة، وخالية من الأمراض</h3>
+      <p>« وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا »</p>
+      <button class="more"><a href="/إتقاء/الرئيسية/home.html#about-us" class="btn">اعرف أكثر <i class="fa-solid fa-arrow-left"></i></a></button>
+    </section>
+  </main>
+
+  <!-- ABOUT US -->
+  <section id="about-us">
+    <section class="about-us-box">
+      <section class="about-us-card">
+        <section class="about-us-content">
+          <h3>عن إتقاء</h3>
+          <h3>جمعية إتقاء لمكاحة نواقل الأمراض</h3>
+          <p>هي جمعية خيرية علمية صحيّة، مسجلة بالمركز الوطني لتنمية القطاع الغير ربحي.</p>
+        </section>
+        <section class="about-us-image">
+          <img src="document.png">
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <!-- MEMBERS -->
+  <section id="members">
+    <section class="members-box">
+      <section class="members-card">
+        <section class="members-content">
+          <h3>أعضاء جمعية إتقاء</h3>
+          <p>
+        شارك في تأسيس هذه الجمعية نخبة من المتخصصين، في علم الحشرات، وعلم السموم والتقييم الحيوي للمبيدات، علم المكافحة الأحيائية، علم الأحياء الجزئية، علم الإحصاء الحيوي من أعضاء هيئة التدريس بالجامعات السعودية.
+          </p>
+        </section>
+        <section class="members-buttons">
+          <button class="section-btn"><a href="/إتقاء/الأعضاء/members.html#bord" target="_blank">أعضاء مجلس الإدارة</a></button>
+          <button class="section-btn"><a href="/إتقاء/الأعضاء/members.html#general-assembly" target="_blank">أعضاء الجمعية العمومية</a></button>
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news">
+    <section class="news-box">
+      <h3 class="section-name">الأخبار</h3>
+      <section class="news-card">
+        <section class="news-case">
+          <section class="news-image">
+            <i class="fa-solid fa-image"></i>
+            <p class="news-date">24 نوفمبر 2024</p>
+          </section>
+          <h3>الخبر</h3>
+        </section>
+        <section class="news-case">
+          <section class="news-image">
+            <i class="fa-solid fa-image"></i>
+            <p class="news-date">24 نوفمبر 2024</p>
+          </section>
+          <h3>الخبر</h3>
+        </section>
+      </section>
+    </section>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="events">
+    <section class="evemts-box">
+      <h3 class="section-name">الأحداث</h3>
+      <section class="evemts-card">
+        <ul class="events-list">
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            واحد
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            إثنان
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            ثلاثة
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            أربعة
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            خمسة
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            ستة
+          </li>
+          <li>
+            <div class="event-date">
+              <p class="event-day">24</p>
+              <p class="event-month">نوفمبر</p>
+            </div>
+            سبعة
+          </li>
+        </ul>
+      </section>
+    </section>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+    <main class="container-diploma">
+      <h3 class="name-pro">البرامج</h3>
+      <div class="box-pro">
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-user-graduate"></i>
+          <p class="title-pro">برنامج بناء القدرات الوطنية</p>
+          <p class="bio-pro">برنامج يهدف إلى تطوير وتأهيل الكوادر الوطنية في مجال مكافحة نواقل الأمراض، لتحقيق الريادة في مجال مكافحة نواقل الأمراض، من خلال إثراء المعرفة العلمية لدى الكوادر الفنية، في حقل استكشاف ومكافحة آفات الصحة الواحدة (صحة الإنسان والحيوان)، وتطوير منظومة عمليات الإدارة المتكاملة لنواقل المرض، والأمراض المشتركة، لتقديم الخدمات وفق أعلى معايير الجودة وتحسين جودة الأداء.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>العاملين في القطاعات ذات العلاقة</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>600</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>250.000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-user-tie"></i>
+          <p class="title-pro">برنامج الخدمات الاستشارية والدعم العلمي</p>
+          <p class="bio-pro">مكافحة نواقل المرض والأمراض المشتركة من الأعمال التخصصية التي يجب أن يشرف على تنفيذها كوادر علمية متخصصة، ونظرًا لما تمتلكه جمعية إتـقاء بمكة المكرمة من كوادر علمية متخصصة ومؤهلة بمستويات عالية، تبرز أهمية تقديم الخدمات الإستشارية والدعم العلمي لمشاريع الإستكشاف الحشري وبرامج مكافحة نواقل المرض ومختبرات آفات الصحة العامة، والمختبرات التشخيصية البيطرية، لتقديم الخدمات المدونة في كراسات شروط ومواصفات هذه المشاريع، وفق أعلى معايير الجودة، وتحسين جودة الأداء.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>الجهات المعنيّة ببرامج المكافحة</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>360</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>350.000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-gifts"></i>
+          <p class="title-pro">برنامج الهدية الوقائية</p>
+          <p class="bio-pro">تقدم جمعية إتـقاء بمكة المكرمة برنامج الهدية الوقائية، للحجاج والمعتمرين، والزوار والسائحين قاصدي مكة المكرمة وماحولها، وهي عبارة عن حقيبة تحتوي على مستلزمات صحية، تقي بإذن الله المستفيدين من تعرضهم لنواقل الأمراض مثل ( الكمامة - السجادة - الناموسيّة - أدوات الحلاقة - أدوات تنظيف الأسنان - غطاء للعين - كاتم للإزعاج - مناديل - صابون - مظلّة - دهانات طاردة للحشرات ).
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>الحجاج والمعتمرين، والزوار</span>
+            </p>
+            <p>
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="tow">
+              عدد المستفيدين:
+              <br>
+              <span>500,000</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>7,000,000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-user-shield"></i>
+          <p class="title-pro">برنامج واعي</p>
+          <p class="bio-pro">تقدم جمعية إتـقاء بمكة المكرمة برنامج واعي، وهي سلسلة من الندوات والمحاضرات التثقيفية المتخصصة في مكافحة نواقل الأمراض، تهدف هذه المبادرة لنشر الوعي والتثقيف الصحي لجميع أفراد المجتمع حول الأمراض المنقولة بالنواقل، وكيفية مساهمة المجتمع في السيطرة على انتشارها، وتقليل معدلات العدوى بين السكان.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>المجتمع المحلي</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>3,500</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>350,000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-pump-medical"></i>
+          <p class="title-pro">برنامج التقييم الحيوي للمبيدات</p>
+          <p class="bio-pro">معظم الأمراض المنقولة بالنواقل ليس لها علاج محدد، ولا يوجد لها لقاح حتى الآن، وبالتالي فإن أفضل وسيلة للسيطرة على هذه الأمراض هي مكافحة النواقل، وتعتبر المبيدات الحشرية هي الطريقة الأكثر شيوعًا واستخدامًا، وهنا تبرز أهمية تقييم فاعلية هذه المبيدات، والتأكد من سلامة المواد الفعّالة ونسبتها قبلا الإستخدام، وكذلك قياس مستوى حساسية النواقل بأطوارها المختلفة للمبيدات قبل البت باستخدامها، بالإضافة إلى أخذ عيّنات عشوائية من أجهزة الرش، والتأكد من معدلات التخفيف وتجانس الخلط، مع ضرورة قياس متبقيات هذهالمبيدات على الأسطح المرشوشة، وعليه بادرت جمعية إتـقاء في تقديم هذه المبادرة.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>الجهات المعنيّة ببرامج المكافحة</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>360</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>250,000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-laptop-medical"></i>
+          <p class="title-pro">برنامج دبلوم إدارة آفات الصحة الواحدة</p>
+          <p class="bio-pro">برنامج يحقق التحول الوطني من خلال سوق الملن بكوادر وطنية مدرّبة ومؤهلة في مجال مكافحة نواقل الأمراض.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>الطلاب والطالبات من خريجي التعليم العام والجامعي</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>300</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>688,000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-hand-holding-heart"></i>
+          <p class="title-pro">برنامج مشروع الصدقة الجارية</p>
+          <p class="bio-pro">شراء أرض وبناءها، لتكون مقر للجمعية وتنفيذ برامجها وأنشطتها.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>مقر البرامج والأنشطة</span>
+            </p>
+            <p class="tow">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>1,000</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>5,000,000 ريال</span>
+            </p>
+          </div>
+        </div>
+
+        <div href="#" class="card-pro">
+          <i class="icon-pro fa-solid fa-building-wheat"></i>
+          <p class="title-pro">مركز السيطرة على الآفات النباتية والأمراض الحيوانية</p>
+          <p class="bio-pro">شراء أرض وبناءها، لتكون مركز لتنفيذ أبحاث متقدمة، لتشخيص الآفات النباتية ونواقل الأمراض، وإيجاد حلول علمية، بالإضافة إلى إعتماد هذا المركز كجهة تدريبية للكوادر الوطنية من خريجي كليات العلوم في الجامعات السعودية، والكوادر الوطنية في الجهات ذات العلاقة.</p>
+          </p>
+          <div class="info-pro">
+            <p class="one">
+              الفئة المستهدفة:
+              <br>
+              <span>الباحثين في مجال الوقاية من الأمراض</span>
+            </p>
+            <p class="three">
+              مدة التنفيذ:
+              <br>
+              <span>سنة ميلادية</span>
+            </p>
+            <p class="three">
+              عدد المستفيدين:
+              <br>
+              <span>1,000</span>
+            </p>
+            <p class="four">
+              التكلفة الإجمالية للبرنامج:
+              <br>
+              <span>10,000,000 ريال</span>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+  </section>
+
+  <!--  -->
+  <section id="diploma">
+    <main class="container-diploma">
+      <div class="box-diploma">
+        <a href="/إتقاء/الدبلوم/diploma.html" class="card-diploma">
+          <i class="icon-diploma fa-solid fa-graduation-cap"></i>
+          <p class="title-diploma">دبلوم في إدارة الصحة الواحدة</p>
+          <p class="bio-diploma">يستهدف هذا القسم من البرنامج خريجي التعليم العام لتحسين جاهزية الشباب السعودي للدخول في سوق العمل في مشاريع إستكشاف ومكافحة النواقل.</p>
+        </a>
+        <a href="/إتقاء/الدورات/courses.html" class="card-diploma">
+          <i class="icon-diploma fa-solid fa-stethoscope"></i>
+          <p class="title-diploma">دورات تدريبية نظري وعملي</p>
+          <p class="bio-diploma">يستهدف هذا القسم من البرنامج العاملين في مشاريع الإستكشاف والمكافحة في الجهات المعنية وكذلك خريجي التعليم الجامعي الأقسام ذات العلاقة من كليتي العلوم والزراعة ويهدف البرنامج إلى إكتسابهم العديد من المعارف والمهارات المختلفة لرفع جودة العمل في مهامهم بكل كفائة واقتدار.</p>
+        </a>
+      </div>
+    </main>
+  </section>
+
+  <!-- CONTAINER -->
+  <section id="container">
+    <section class="container-box">
+      <section class="container-card" id="vision-values-card">
+        <!-- VISION -->
+        <section id="vision">
+          <i id="card-icons" class="fa-solid fa-eye"></i>
+          <h3 class="card-title">الرؤية</h3>
+          <p class="card-bio">وقاية المجتمع من الأمراض المنقولة بالنواقل، وبناء مجتمع حيوي ينعم أفراده بنمط حياة صحيّة.</p>
+        </section>
+        <!-- VALUES -->
+        <section id="values">
+          <i id="card-icons" class="fa-brands fa-sketch"></i>
+          <h3 class="card-title">القِيَم</h3>
+          <section class="values-list">
+            <p>التطوير</p>
+            <p>الشفافية</p>
+            <p>الإبتكار</p>
+            <p>الجودة</p>
+            <p>الوقاية</p>
+          </section>
+        </section>
+      </section>
+      <!-- MISSION -->
+      <section id="mission" class="container-card">
+        <i id="card-icons" class="fa-brands fa-medapps"></i>
+        <h3 class="card-title">الرسالة</h3>
+        <p class="card-bio">
+          نقل التقنيات الحديثة في مجال نقل الأمراض المعدية، وبناء قدرات وطنية للسيطرة على نواقل الأمراض، مع تقديم الإستشارات العلمية والدعم الفني، فيما يخص آليّات نقل ووبائية هذه الأمراض، إلى صنع قرار بوضع الخطط المناسبة لمنع نقل الأمراض ومكافحتها، والسعي في توفير بيئة صحيّة، آمنة، خالية من الأمراض ونواقلها.
+            </p>
+      </section>
+    </section>
+  </section>
+
+  <!-- STRATEGY -->
+  <section id="strategy">
+    <h3 class="section-name">الأهداف الإستراتيجية</h3>
+    <section class="strategy-box">
+      <section class="strategy-card">
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <p>التأهيل والتدريب وتطوير القدرات، في مجال تخصص الجمعية</p>
+      </section>
+      <section class="strategy-card">
+        <i class="fa-solid fa-person-chalkboard"></i>
+        <p>تقديم الإستشارات والدراسات، في مجال تخصص الجمعية</p>
+      </section>
+      <section class="strategy-card">
+        <i class="fa-solid fa-vial-virus"></i>
+        <p>تنفيذ أبحاث علمية متقدمة، تخدم نتائجها برامج مكافحة نواقل الأمراض</p>
+      </section>
+      <section class="strategy-card">
+        <i class="fa-solid fa-people-group"></i>
+        <p>الإهتمام بالبرامج التوعوية لرفع المشاركة المجتمعية في تعزيز الصحة الواحدة وجودة الحياة، في مجال تخصص الجمعية</p>
+      </section>
+      <section class="strategy-card">
+        <i class="fa-solid fa-shield-virus"></i>
+        <p>
+                الشراكة والتكامل مع الجهات ذات العلاقة، لوضع إستراتيجيات متكاملة لإدارة الأمراض المنقولة بالنواقل، والمساهمة في نقل وتوطين التقنيات الحديثة لمكافحة النواقل، بطرق ووسائل مستدامة، وصديقة للإنسان والبيئة
+        </p>
+      </section>
+    </section>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <footer class="footer-box">
+      <footer class="footer-card" id="overview">
+        <p class="card-name">نظرة عامة :</p>
+        <footer class="card-links">
+          <a href="/إتقاء/الرئيسية/home.html#about-us">عن إتقاء</a>
+          <a href="/إتقاء/الرئيسية/home.html#container">الرؤية</a>
+          <a href="/إتقاء/الرئيسية/home.html#container">القيم</a>
+          <a href="/إتقاء/الرئيسية/home.html#container">الرسالة</a>
+          <a href="/إتقاء/الرئيسية/home.html#strategy">الأهداف الإستراتيجية</a>
+        </footer>
+      </footer>
+      <footer class="footer-card" id="member">
+        <p class="card-name">الأعضاء :</p>
+        <footer class="card-links">
+          <a href="/إتقاء/الأعضاء/members.html#bord">أعضاء مجلس الإدارة</a>
+          <a href="/إتقاء/الأعضاء/members.html#">أعضاء الجمعية العمومية</a>
+        </footer>
+      </footer>
+      <footer class="footer-card" id="important-links">
+        <p class="card-name">روابط هامة :</p>
+        <footer class="card-links">
+          <a href="/إتقاء/الرئيسية/home.html#about-us">المتجر</a>
+          <a href="/إتقاء/الرئيسية/home.html#about-us">الحساب البنكي</a>
+        </footer>
+      </footer>
+      <footer class="footer-card" id="quick-links">
+        <p class="card-name">روابط سريعة :</p>
+        <footer class="card-links">
+          <a href="/إتقاء/الرئيسية/home.html##news">الأخبار</a>
+          <a href="/إتقاء/الرئيسية/home.html#events">الأحداث</a>
+          <a href="/إتقاء/الرئيسية/home.html#programs">البرامج</a>
+        </footer>
+      </footer>
+      <footer class="footer-card" id="social-media">
+        <footer class="social-media">
+          <p class="card-name">تابعنا على :</p>
+          <footer class="social-media-icons">
+            <a href="https://x.com/vector1control1?s=21" target="_blank" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://snapchat.com/t/fI8nEqmW" target="_blank" class="icon"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="https://www.instagram.com/vector1control1/profilecard/?igsh=dG1wdmJoZTRncXZw" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+          </footer>
+        </footer>
+        <footer id="contact">
+          <p class="card-name">الدعم والمساعدة :</p>
+          <footer class="phone-email">
+            <a href="#" target="_blank"><i class="fa-solid fa-phone"></i><span>+966 55 7677 538</span></a>
+            <a href="mailto:d.v.co2024@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i><span>d.v.co2024@gmail.com</span></a>
+          </footer>
+        </footer>
+      </footer>
+    </footer>
+    <p class="copyright">جميع الحقوق محفوظة لجمعية إتقاء لمكافحة نواقل الأمراض &copy; 2024</p>
+  </footer>
+
+</body>
+
+</html>
